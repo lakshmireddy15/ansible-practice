@@ -7,11 +7,11 @@
     TRAINER: Siva kumar
   tasks:
   - name: print the course info
-    vars:
-      COURSE: Devops
+
     ansible.builtin.debug:
       msg: " hello {{ COURSE }}, duration {{ DURATION }}, trainer {{ DURATION }} "
   - name: print the course info
-
+    vars:
+      COURSE: Devops
     ansible.builtin.debug:
       msg: " hello {{ COURSE }}, duration {{ DURATION }}, trainer {{ DURATION }} "
